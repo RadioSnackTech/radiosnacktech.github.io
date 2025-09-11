@@ -38,10 +38,17 @@ nav img {
   width: 200px;
 }
 
+.hamburger,
+#nav-toggle {
+  display: none;
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
 nav li a {
@@ -50,6 +57,60 @@ nav li a {
   text-decoration: none;
   padding: 1rem;
   font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: grid;
+    grid-template-areas:
+    "logo hamburger"
+    "menu menu";
+  }
+  nav ul {
+    grid-area: menu;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+  nav img {
+    grid-area: logo;
+  }
+  .hamburger {
+    grid-area: hamburger;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1001;
+    position: relative;
+    justify-self: end;
+    margin-right: 1rem;
+  }
+
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background: var(--green);
+    margin: 3px 0;
+    transition: 0.3s;
+    display: block;
+  }
+
+  #nav-toggle:checked ~ ul {
+    display: flex;
+  }
+
+  #nav-toggle:checked ~ .hamburger span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+  }
+
+  #nav-toggle:checked ~ .hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  #nav-toggle:checked ~ .hamburger span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+  }
 }
 
 header {
