@@ -3,4 +3,7 @@ layout: base.njk
 title: Radio Snack - Equipment and Space
 ---
 
-<h2> Equipment </h2>
+## Equipment
+
+* Risograph printer
+
