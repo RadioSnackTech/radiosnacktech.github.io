@@ -6,6 +6,9 @@ module.exports = function(eleventyConfig) {
       input: ".",
       includes: "_includes",
       output: "_site"
+    },
+    devServer: {
+      host: "0.0.0.0"
     }
   };
 };
