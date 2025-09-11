@@ -59,7 +59,57 @@ nav li a {
   font-size: 1.3rem;
 }
 
+header {
+  font-size: 65px;
+  font-weight: 600;
+  max-width: 700px;
+  line-height: 1.3em;
+}
+
+header img {
+  max-width: 600px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+.button {
+  background: var(--green);
+  color: black;
+  padding: 1rem 2rem;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: var(--gray);
+}
+
+.callout {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+footer {
+  background: var(--green);
+  color: black;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+
 @media screen and (max-width: 768px) {
+  /* Hamburger menu */
   nav {
     display: grid;
     grid-template-areas:
@@ -111,50 +161,14 @@ nav li a {
   #nav-toggle:checked ~ .hamburger span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -6px);
   }
+  /* other misc mobile styles */
+
+  header {
+    font-size: 35px;
+  }
+
+  .callout {
+    display: block;
+  }
 }
 
-header {
-  font-size: 65px;
-  font-weight: 600;
-  max-width: 700px;
-  line-height: 1.3em;
-}
-
-header img {
-  max-width: 600px;
-}
-
-h2 {
-  font-size: 30px;
-  margin-bottom: 30px;
-}
-
-p {
-  line-height: 1.3em;
-}
-
-.button {
-  background: var(--green);
-  color: black;
-  padding: 1rem 2rem;
-  text-decoration: none;
-}
-
-.button:hover {
-  background: var(--gray);
-}
-
-.callout {
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
-}
-
-footer {
-  background: var(--green);
-  color: black;
-  margin: 0;
-  padding: 1rem;
-  text-align: center;
-  margin-top: 8rem;
-}
