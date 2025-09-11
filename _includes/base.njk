@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title or "Radio Snack" }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">
+        <img src="/images/logo.png">
+        </a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://us17.campaign-archive.com/home/?u=ba0a970b8d0ce98df253de379&id=44959ac275">News</a></li>
+            <li><a href="https://www.eventbrite.ca/en_CA/o/79396319863">Events</a></li>
+            <li><a href="/equipment-and-space/">Equipment And Space</a></li>
+            <li><a href="https://www.zeffy.com/en-CA/ticketing/radio-snack-membership">Support Radio Snack</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        {{ content | safe }}
+    </main>
+
+    <footer>
+        <p>Contact us at hello@RadioSnack.ca</p>
+        <p>Copyright &copy; 2025 Radio Snack</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,99 @@
+/* Radio Snack Styles */
+
+:root {
+  --purple: #643df2;
+  --green: #13f274;
+  --gray: rgb(216, 216, 245);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+::selection {
+  background-color: var(--green);
+  color: black;
+}
+
+html {
+  background-color: var(--purple);
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem;
+  min-height: 100vh;
+}
+
+nav {
+  border-bottom: 8px solid var(--green);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav li a {
+  color: var(--green);
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+
+header {
+  font-size: 65px;
+  font-weight: 600;
+  max-width: 700px;
+  line-height: 1.3em;
+}
+
+header img {
+  max-width: 600px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+.button {
+  background: var(--green);
+  color: black;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: var(--gray);
+}
+
+.callout {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+footer {
+  background: var(--green);
+  color: black;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 8rem;
+}
