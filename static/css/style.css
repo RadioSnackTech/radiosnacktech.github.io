@@ -4,6 +4,7 @@
   --purple: #643df2;
   --green: #13f274;
   --gray: rgb(216, 216, 245);
+  --orange: #F2522E;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -52,7 +53,7 @@ nav ul {
 }
 
 nav li a {
-  color: var(--green);
+  color: white;
   display: inline-block;
   text-decoration: none;
   padding: 1rem;
