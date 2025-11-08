@@ -110,6 +110,20 @@ footer {
   margin-top: 8rem;
 }
 
+.banner-link {
+  display: block;
+  text-align: center;
+}
+
+.banner-link img {
+  max-width: 100%;
+  height: auto;
+}
+
+.centered {
+  text-align: center;
+}
+
 @media screen and (max-width: 768px) {
   /* Hamburger menu */
   nav {
