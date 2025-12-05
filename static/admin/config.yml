@@ -2,6 +2,7 @@ backend:
   branch: main
   name: github
   repo: RadioSnackTech/radiosnacktech.github.io
+  base_url: https://netlify-oauth.jvns.ca
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
 site_url: https://radiosnack.ca
 public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
