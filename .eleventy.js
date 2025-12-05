@@ -16,7 +16,7 @@ module.exports = function(eleventyConfig) {
       year: 'numeric',
       hour: 'numeric',
       minute: '2-digit',
-      timeZoneName: 'short'
+      timeZone: 'America/New_York'
     };
     return date.toLocaleDateString('en-US', options);
   });
