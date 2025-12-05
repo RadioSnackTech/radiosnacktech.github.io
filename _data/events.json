@@ -1,4 +1,5 @@
-[
+{
+  "events": [
   {
     "title": "Radio Snack's 1st Bday fundraiser Party!",
     "date": "2025-11-22T21:00:00-05:00",
@@ -101,4 +102,5 @@
     "image": "/images/uploads/event_a8db6666.jpg",
     "url": "https://www.eventbrite.ca/e/workshop-prototype-vga-hacking-cuccr-crt-tickets-846406232827"
   }
-]
+  ]
+}
