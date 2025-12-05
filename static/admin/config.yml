@@ -1,0 +1,23 @@
+backend:
+  branch: main
+  name: github
+  repo: RadioSnackTech/radiosnacktech.github.io
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+site_url: https://radiosnack.ca
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+collections:
+  - name: "events"
+    label: "Event" # Used in the UI
+    files:
+      - label: "Events"
+        name: "events"
+        file: "_data/events.json"
+        fields:
+          - label: "Events"
+            name: "events"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Date", name: "date", widget: "datetime" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Event URL", name: "url", widget: "string" }
