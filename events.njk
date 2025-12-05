@@ -1,0 +1,47 @@
+---
+layout: base.njk
+title: Events - Radio Snack
+permalink: /events/
+---
+
+{% set today = "" | currentDate %}
+{% set upcomingEvents = [] %}
+{% set pastEvents = [] %}
+
+{%- for event in events %}
+  {% if event.date > today %}
+    {% set upcomingEvents = upcomingEvents.concat([event]) %}
+  {% else %}
+    {% set pastEvents = pastEvents.concat([event]) %}
+  {% endif %}
+{%- endfor %}
+
+<h2>Upcoming Events</h2>
+<div class="events-list">
+  {% if upcomingEvents.length > 0 %}
+    {%- for event in upcomingEvents %}
+    <a href="{{ event.url }}" target="_blank" rel="noopener">
+    <article class="event">
+      <img src="{{ event.image }}" alt="{{ event.title }}">
+      <h2>{{ event.title }}</h2>
+      <time datetime="{{ event.date }}">{{ event.date | formatEventDate }}</time>
+    </article>
+    </a>
+    {%- endfor %}
+  {% else %}
+    <p>No events right now, <a style="color: var(--green);" href="https://space.us17.list-manage.com/subscribe?u=ba0a970b8d0ce98df253de379&id=44959ac275">sign up for our mailing list</a> to hear about new events!</p>
+  {% endif %}
+</div>
+
+<h2>Past Events</h2>
+<div class="events-list">
+  {%- for event in pastEvents %}
+  <a href="{{ event.url }}" target="_blank" rel="noopener">
+  <article class="event">
+    <img src="{{ event.image }}" alt="{{ event.title }}">
+    <h2>{{ event.title }}</h2>
+    <time datetime="{{ event.date }}">{{ event.date | formatEventDate }}</time>
+  </article>
+  </a>
+  {%- endfor %}
+</div>
