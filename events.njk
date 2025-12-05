@@ -8,7 +8,7 @@ permalink: /events/
 {% set upcomingEvents = [] %}
 {% set pastEvents = [] %}
 
-{%- for event in events %}
+{%- for eventKey, event in events %}
   {% if event.date > today %}
     {% set upcomingEvents = upcomingEvents.concat([event]) %}
   {% else %}

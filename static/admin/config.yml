@@ -9,18 +9,13 @@ public_folder: "/images/uploads" # The src attribute for uploaded media will beg
 collections:
   - name: "events"
     label: "Events"
-    files:
-      - label: "Events List"
-        name: "events"
-        file: "_data/events.json"
-        format: "json"
-        fields:
-          - label: "Events"
-            name: "events"
-            widget: "list"
-            summary: "{{fields.title}} - {{fields.date}}"
-            fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Date", name: "date", widget: "datetime" }
-              - { label: "Image", name: "image", widget: "image" }
-              - { label: "Event URL", name: "url", widget: "string" }
+    folder: "_data/events"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Event URL", name: "url", widget: "string" }
