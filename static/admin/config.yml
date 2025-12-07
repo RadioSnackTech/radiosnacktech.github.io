@@ -20,3 +20,16 @@ collections:
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Event URL", name: "url", widget: "string" }
+  - name: "links"
+    label: "Link"
+    folder: "_data/links"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    summary: "{{text}}"
+    fields:
+      - { label: "Text", name: "text", widget: "string" }
+      - { label: "URL", name: "url", widget: "string" }
+      - { label: "Icon", name: "icon_url", widget: "image", required: false }
+      - { label: "Priority", name: "priority", widget: "number", default: 1 }
