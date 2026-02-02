@@ -16,6 +16,12 @@ permalink: /events/
   {% endif %}
 {%- endfor %}
 
+{# soonest first #}
+{% set upcomingEvents = upcomingEvents | sort(false, false, 'date') %}
+
+{# most recent first #}
+{% set pastEvents = pastEvents | sort(true, false, 'date') %}
+
 <h2>Upcoming Events</h2>
 <div class="events-list">
   {% if upcomingEvents.length > 0 %}
