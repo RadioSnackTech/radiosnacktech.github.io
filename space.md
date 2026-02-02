@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Radio Snack - Space
+title: Space - Radio Snack
 ---
 
 ## Space
