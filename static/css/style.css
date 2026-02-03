@@ -164,6 +164,18 @@ footer {
   margin-top: 8rem;
 }
 
+footer .insta-link {
+  color: black;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+footer svg {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .banner-link {
   display: block;
   text-align: center;
