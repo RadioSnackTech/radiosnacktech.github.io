@@ -179,22 +179,26 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
   /* Hamburger menu */
   nav {
     display: grid;
     grid-template-areas:
-    "logo hamburger"
-    "menu menu";
+      "logo hamburger"
+      "menu menu";
   }
+
   nav ul {
     grid-area: menu;
     display: none;
     flex-direction: column;
     text-align: center;
   }
+
   nav img {
     grid-area: logo;
   }
+
   .hamburger {
     grid-area: hamburger;
     display: flex;
@@ -216,21 +220,22 @@ footer {
     display: block;
   }
 
-  #nav-toggle:checked ~ ul {
+  #nav-toggle:checked~ul {
     display: flex;
   }
 
-  #nav-toggle:checked ~ .hamburger span:nth-child(1) {
+  #nav-toggle:checked~.hamburger span:nth-child(1) {
     transform: rotate(45deg) translate(6px, 6px);
   }
 
-  #nav-toggle:checked ~ .hamburger span:nth-child(2) {
+  #nav-toggle:checked~.hamburger span:nth-child(2) {
     opacity: 0;
   }
 
-  #nav-toggle:checked ~ .hamburger span:nth-child(3) {
+  #nav-toggle:checked~.hamburger span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -6px);
   }
+
   /* other misc mobile styles */
 
   header {
@@ -246,3 +251,20 @@ footer {
   }
 }
 
+.cta-button {
+  background-color: #f2107a;
+  border-radius: 0;
+  border: 2px solid #000000;
+  color: #ffffff;
+  display: block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  padding: 16px 28px;
+  text-decoration: none;
+  text-align: center;
+  direction: ltr;
+  letter-spacing: 0px;
+  margin-bottom: 3rem;
+}

@@ -5,21 +5,33 @@ title: Space - Radio Snack
 
 ## Space
 
-In January 2026, Radio Snack moved into a new space at [916 Rue Ontario E, #130](https://maps.app.goo.gl/PpCGADvddT2V7wQh9)!
+In January 2026, Radio Snack moved into a new space at
+[916 Rue Ontario E, #130](https://maps.app.goo.gl/PpCGADvddT2V7wQh9)!
 
-Our new space has two rooms, a public and a private studio. The public studio
-will be available for members to share space, use tools, co-work and more! If
-you want your own dedicated studio, we've got the private space as well! Both
-are well-light, spacious, and full of possibilities.
 
-Here's the private space:
+Our new space has two rooms, a **community space** and a **private studio**.
+Both are well-lit, spacious, and full of possibilities. We're on the ground
+floor, there are around 8 steps to get in.
 
+
+**The community space** is open to Radio Snack members to share space, use
+tools, co-work and more! It’s also where we host our [public events](/events).
+It has a Bambu 3D printer, risograph printer, soldering station, drill press,
+sewing machine, a laser cutter, fast wifi, a printer, kitchenette, and lots
+of tea.
+
+**The private studio** is rented by a small group of artists and community
+members who need permanent workstations in a shared private room. We have a few
+spots available.
+
+<a class="cta-button" href="/membership"> Learn more about membership </a>
+
+We occasionally host open houses or other free events where you can meet
+everyone and check out the space, [join our mailing list](https://mailchi.mp/5900d5de779a/follow-radio-snack) to learn more.
+
+<img src="/images/community-space-small.jpg" style="max-width: 100%">
 <img src="/images/private.jpg" style="max-width: 100%">
 
-Interested in membership? Email us about the options:
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5591.100715509282!2d-73.5630781!3d45.519129400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91bc210892357%3A0xb9ed176d0a5f3ce8!2sRadio%20Snack!5e0!3m2!1sen!2sca!4v1770147862111!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-* 💚 Community Member: $20 per month, access to Radio Snack during weekly open hours
-* 💜 Regular Member: $60 per month (limited time special price), key access 24/7 to the public studio!
-* 💛 Studio Member: $350 per month for a 24/7 private dedicated studio space.
-
-<a href="mailto:hello@radiosnack.ca?subject=Radio%20Snack%20Membership&amp;body=I%20want%20to%20be%20a%20member!" target="_blank" class="mceButtonLink" style="background-color:#f2107a;border-radius:0;border:2px solid #000000;color:#ffffff;display:block;font-family:'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;font-size:16px;font-weight:normal;font-style:normal;padding:16px 28px;text-decoration:none;text-align:center;direction:ltr;letter-spacing:0px" rel="noreferrer">Email us about Membership Options</a>
+Please contact us if you'd like to arrange a visit.
