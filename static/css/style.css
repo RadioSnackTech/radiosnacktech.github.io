@@ -109,6 +109,27 @@ p {
   gap: 3rem;
 }
 
+/* photo grid */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.photo-grid img:hover {
+  transform: scale(1.05);
+}
+
 /* events */
 
 .events-list {
@@ -264,6 +285,11 @@ footer svg {
 
   .events-list {
     grid-template-columns: 1fr;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
   }
 }
 
