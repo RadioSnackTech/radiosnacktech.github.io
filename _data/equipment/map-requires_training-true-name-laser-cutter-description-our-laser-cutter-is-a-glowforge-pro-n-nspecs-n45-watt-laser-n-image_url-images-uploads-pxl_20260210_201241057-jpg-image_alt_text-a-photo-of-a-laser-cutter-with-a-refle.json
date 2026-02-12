@@ -1,0 +1,7 @@
+{
+  "requires_training": true,
+  "name": "Laser Cutter",
+  "description": "Our laser cutter is a Glowforge Pro.\n\nSpecs:\n45 watt laser\n",
+  "image_url": "/images/uploads/pxl_20260210_201241057.jpg",
+  "image_alt_text": "A photo of a laser cutter with a reflective top, on top of a table. The photo is taken at an angle."
+}
