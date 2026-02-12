@@ -36,7 +36,7 @@ collections:
     label: "Equipment"
     folder: "_data/equipment"
     create: true
-    slug: "{{slug}}"
+    slug: "{{name | slug}}"
     extension: "json"
     format: "json"
     summary: "{{name}}"
