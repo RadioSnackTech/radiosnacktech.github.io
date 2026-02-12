@@ -32,4 +32,16 @@ collections:
       - { label: "Text", name: "text", widget: "string" }
       - { label: "URL", name: "url", widget: "string" }
       - { label: "Icon", name: "icon_url", widget: "image", required: false }
-      - { label: "Priority", name: "priority", widget: "number", default: 1 }
+  - name: "equipment"
+    label: "Equipment"
+    folder: "_data/equipment"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    summary: "{{name}}"
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Image", name: "image_url", widget: "image", required: false }
+      - { label: "Requires training?", name: "requires_training", widget: "boolean", default: false }
