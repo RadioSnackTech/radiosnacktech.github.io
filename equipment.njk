@@ -29,7 +29,7 @@ Some equipment requires training: our <a href="/events">events page</a> has a li
     {% if item.images and item.images.length > 0 %}
       <div class="equipment-images">
         {%- for image in item.images %}
-        <img src="{{ image.url }}" alt="{{ image.alt_text or item.name }}">
+        {% image "static" + image.url, image.alt_text or item.name, "(min-width: 50em) 20vw, 100vw" %}
         {%- endfor %}
       </div>
     {% endif %}

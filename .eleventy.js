@@ -1,7 +1,29 @@
 const markdownIt = require("markdown-it");
+const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt, sizes = "100vw") {
+  let metadata = await Image(src, {
+    widths: [300, 600, 1200],
+    formats: ["webp", "jpeg"],
+    outputDir: "./_site/images/",
+    urlPath: "/images/"
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  return Image.generateHTML(metadata, imageAttributes);
+}
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"static": "."});
+
+  // Add responsive image shortcode
+  eleventyConfig.addShortcode("image", imageShortcode);
 
   // Add markdown filter
   const md = new markdownIt({
