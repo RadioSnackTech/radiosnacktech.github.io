@@ -43,6 +43,11 @@ collections:
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
-      - { label: "Image", name: "image_url", widget: "image", required: false }
-      - { label: "Image Alt Text", name: "image_alt_text", widget: "string" }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Image", name: "url", widget: "image" }
+          - { label: "Alt Text", name: "alt_text", widget: "string" }
       - { label: "Requires training?", name: "requires_training", widget: "boolean", default: false }

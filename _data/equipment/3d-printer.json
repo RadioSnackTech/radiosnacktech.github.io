@@ -1,7 +1,11 @@
 {
   "requires_training": true,
   "name": "Dumpling (3D Printer)",
-  "image_url": "/images/uploads/pxl_20260210_201609298.jpg",
-  "description": "Our 3D printer’s name is Dumpling (aka Hot Dumps)! \n\nIt is a Bambu P1S with optional AMS system. The slicer for it is called BambuStudio, and [you can download it yourself](https://bambulab.com/en/download/studio), or use BambuStudio on the RadioSnack computers\n\nSpecs: \n* Build volume : 256mmx25mmx256mm \n* Nozzle: 0.4 mm Stainless Steel  \n\nSupported Filaments:  \n* Ideal: PLA, PETG, TPU, PVA, PET, ABS, ASA \n* Capable: PA, PC \n\n**About Filament:** We use PLA filament because it's less stinky than ABS, and in theory more environmentally friendly. The Bambu P1S printer supports other kinds of filament.  If you want to use a different kind of filament, let’s talk about it! Our filament costs about $30 per kilo, or $.03/g. ",
-  "image_alt_text": "A photo of a black Bambu Lab P1S 3D printer with reels visible."
+  "description": "Our 3D printer's name is Dumpling (aka Hot Dumps)! \n\nIt is a Bambu P1S with optional AMS system. The slicer for it is called BambuStudio, and [you can download it yourself](https://bambulab.com/en/download/studio), or use BambuStudio on the RadioSnack computers\n\nSpecs: \n* Build volume : 256mmx25mmx256mm \n* Nozzle: 0.4 mm Stainless Steel  \n\nSupported Filaments:  \n* Ideal: PLA, PETG, TPU, PVA, PET, ABS, ASA \n* Capable: PA, PC \n\n**About Filament:** We use PLA filament because it's less stinky than ABS, and in theory more environmentally friendly. The Bambu P1S printer supports other kinds of filament.  If you want to use a different kind of filament, let's talk about it! Our filament costs about $30 per kilo, or $.03/g. ",
+  "images": [
+    {
+      "url": "/images/uploads/pxl_20260210_201609298.jpg",
+      "alt_text": "A photo of a black Bambu Lab P1S 3D printer with reels visible."
+    }
+  ]
 }

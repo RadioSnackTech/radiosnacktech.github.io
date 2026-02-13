@@ -26,7 +26,13 @@ Some equipment requires training: our <a href="/events">events page</a> has a li
 <div class="equipment-list">
   {%- for item in sortedEquipment %}
   <article class="equipment-item">
-    <img src="{{ item.image_url }}" alt="{{ item.image_alt_text or item.name }}">
+    {% if item.images and item.images.length > 0 %}
+      <div class="equipment-images">
+        {%- for image in item.images %}
+        <img src="{{ image.url }}" alt="{{ image.alt_text or item.name }}">
+        {%- endfor %}
+      </div>
+    {% endif %}
     <div class="equipment-content">
       <h3>
         {{ item.name }}
