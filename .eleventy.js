@@ -1,5 +1,17 @@
+const markdownIt = require("markdown-it");
+
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"static": "."});
+
+  // Add markdown filter
+  const md = new markdownIt({
+    html: true,
+    breaks: true,
+    linkify: true
+  });
+  eleventyConfig.addFilter("markdown", (content) => {
+    return md.render(content);
+  });
 
   // Add a filter to get current date
   eleventyConfig.addFilter("currentDate", () => {

@@ -1,0 +1,41 @@
+---
+layout: base.njk
+title: Equipment - Radio Snack
+permalink: /equipment/
+---
+
+{% set sortedEquipment = [] %}
+
+{%- for equipmentKey, item in equipment %}
+  {% set sortedEquipment = sortedEquipment.concat([item]) %}
+{%- endfor %}
+
+{# Sort so training required items come first #}
+{% set sortedEquipment = sortedEquipment | sort(true, false, 'requires_training') %}
+
+<h1>Radio Snack Equipment</h1>
+
+<p>
+Radio Snack <a href="/membership">members</a> can use our equipment. Here are the tools available at Radio Snack.
+</p>
+
+<p>
+Some equipment requires training: our <a href="/events">events page</a> has a list of upcoming training sessions.
+</p>
+
+<div class="equipment-list">
+  {%- for item in sortedEquipment %}
+  <article class="equipment-item">
+    <img src="{{ item.image_url }}" alt="{{ item.image_alt_text or item.name }}">
+    <div class="equipment-content">
+      <h3>
+        {{ item.name }}
+        {% if item.requires_training %}
+        <span class="training-badge">Requires Training</span>
+        {% endif %}
+      </h3>
+      <p>{{ item.description | markdown | safe }}</p>
+    </div>
+  </article>
+  {%- endfor %}
+</div>
