@@ -118,15 +118,18 @@ p {
   margin: 2rem 0;
 }
 
-.photo-grid img {
-  width: 100%;
+.photo-grid img,
+.photo-grid picture img {
+  width: 100% !important;
+  height: auto !important;
   aspect-ratio: 3/2;
   object-fit: cover;
   border-radius: 8px;
   transition: transform 0.2s;
 }
 
-.photo-grid img:hover {
+.photo-grid img:hover,
+.photo-grid picture img:hover {
   transform: scale(1.05);
 }
 

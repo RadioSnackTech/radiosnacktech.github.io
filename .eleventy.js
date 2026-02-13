@@ -16,7 +16,14 @@ async function imageShortcode(src, alt, sizes = "100vw") {
     decoding: "async",
   };
 
-  return Image.generateHTML(metadata, imageAttributes);
+  return Image.generateHTML(metadata, imageAttributes, {
+    htmlOptions: {
+      imgAttributes: {
+        width: false,
+        height: false,
+      }
+    }
+  });
 }
 
 module.exports = function(eleventyConfig) {
