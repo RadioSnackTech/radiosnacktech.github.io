@@ -2,6 +2,10 @@
   "requires_training": false,
   "name": "Soldering Bench",
   "description": "We have a soldering bench! While this does not require training, we ask that you reach out if you need help, and make sure to follow safety instructions while working.",
-  "image_url": "/images/uploads/pxl_20260210_201454703.jpg",
-  "image_alt_text": "A photo of a soldering bench, with the focus on the soldering iron in the background, with wires in the foreground"
+  "images": [
+    {
+      "url": "/images/uploads/pxl_20260210_201454703.jpg",
+      "alt_text": "A photo of a soldering bench, with the focus on the soldering iron in the background, with wires in the foreground"
+    }
+  ]
 }
