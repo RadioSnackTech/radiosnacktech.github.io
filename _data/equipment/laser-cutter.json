@@ -1,7 +1,7 @@
 {
   "requires_training": true,
   "name": "Laser Cutter",
-  "description": "Our laser cutter is a Glowforge Pro.\n\nSpecs:\n45 watt laser\n",
+  "description": "Our laser cutter is a Glowforge Pro.\n\nSpecs:\n45 watt laser\n\nUser guide is available [here](https://assets.ctfassets.net/ljtyf78xujn2/7axLVEf4kpTdrKskWKEmIp/0d389fbe73c2c1de01e4160d73f793e3/Glowforge_Performance_Series_User_Manual_v3.5.pdf)\n",
   "image_url": "/images/uploads/pxl_20260210_201241057.jpg",
   "image_alt_text": "A photo of a laser cutter with a reflective top, on top of a table. The photo is taken at an angle."
 }
