@@ -1,0 +1,11 @@
+{
+  "requires_training": false,
+  "name": "Singer Heavy Duty Sewing Machine",
+  "images": [
+    {
+      "url": "/images/uploads/pxl_20260210_201525090.jpg",
+      "alt_text": "A photo of a black heavy-duty sewing machine"
+    }
+  ],
+  "description": "We have a SINGER Heavy Duty 4432 sewing machine! \n\nSpecs:\n* Reverse stitching\n* High-speed stitching (1100 stitches/minute!)\n* Extra High Presser Foot Lifter for thick fabrics\n* One-step buttonhole\n* Motor is 60% stronger than a standard sewing machine motor\n* A number of different stitches, with adjustable stitch length\n"
+}
