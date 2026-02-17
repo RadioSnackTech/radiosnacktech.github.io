@@ -1,7 +1,7 @@
 {
   "requires_training": true,
   "name": "Riso Printer",
-  "description": "Mille Feuille is our riso printer! It is a SF5130U. It can print up to legal sized paper.\n\nResolution:\n* Scanning Resolution: 600 dpi × 600 dpi\n* Printing: 300 dpi × 600 dpi\n* Quick Master Making mode: 300 dpi × 400 dpi\n\nMaximum Scanning Area:\n* 11 11/16 inches × 17 inches (297 mm × 432 mm)\n\nIt has a number of colourful inks, including:\n* Florescent pink\n* Purple\n* Yellow",
+  "description": "Mille Feuille is our riso printer! It is a SF5130U. It can print up to legal sized paper.\n\nResolution:\n* Scanning Resolution: 600 dpi × 600 dpi\n* Printing: 300 dpi × 600 dpi\n* Quick Master Making mode: 300 dpi × 400 dpi\n\nMaximum Scanning Area:\n* 11 11/16 inches × 17 inches (297 mm × 432 mm)\n\nIt has a number of colourful inks, including:\n* Aqua\n* Black\n* Florescent Pink\n* Light lime\n* Sunflower\n* Violet",
   "images": [
     {
       "url": "/images/uploads/pxl_20260210_201021424.jpg",
