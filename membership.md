@@ -10,7 +10,7 @@ Radiosnack is a membership based community and makerspace.
 Our membership types:
 
 * 💚 Community Member: Access to the community space during weekly open hours ($20/mo)
-* 💜 Regular Member: 24/7 key access to the community space ($60/mo, limited time special price)
+* 💜 Regular Member: 24/7 key access to the community space ($100/mo)
 * 💛 Studio Member: 24/7 dedicated space in the shared private studio ($300-$400/mo)
 
 ## Community Members
