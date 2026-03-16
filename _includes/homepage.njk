@@ -1,0 +1,30 @@
+---
+layout: base.njk
+---
+
+<header>
+  <p>{{ translations[page.lang].tagline }}</p>
+  <img src="/images/snacks.png">
+</header>
+
+{{ content | safe }}
+
+<div class="callout">
+  <div>
+    <h2>{{ translations[page.lang].callout.updates_heading }}</h2>
+    <a href="https://mailchi.mp/5900d5de779a/follow-radio-snack" class="button">{{ translations[page.lang].callout.updates_button }}</a>
+  </div>
+  <div>
+    <h2>{{ translations[page.lang].callout.questions_heading }}</h2>
+    <a class="button" href="mailto:hello@radiosnack.ca">{{ translations[page.lang].callout.questions_button }}</a>
+  </div>
+</div>
+
+<div class="photo-grid">
+  {% image "static/images/front-page-photos/PXL_20240814_234335061.jpg", "Radio Snack community photo", "(min-width: 50em) 25vw, 50vw" %}
+  {% image "static/images/front-page-photos/PXL_20251025_192753521.jpg", "Radio Snack community photo", "(min-width: 50em) 25vw, 50vw" %}
+  {% image "static/images/front-page-photos/PXL_20251025_193504743.MP.jpg", "Radio Snack community photo", "(min-width: 50em) 25vw, 50vw" %}
+  {% image "static/images/front-page-photos/PXL_20251025_194006668.jpg", "Radio Snack community photo", "(min-width: 50em) 25vw, 50vw" %}
+  {% image "static/images/front-page-photos/PXL_20251025_200846190.MP.jpg", "Radio Snack community photo", "(min-width: 50em) 25vw, 50vw" %}
+  {% image "static/images/front-page-photos/signal-2026-02-03-154720_005.jpeg", "Radio Snack community photo", "(min-width: 50em) 25vw, 50vw" %}
+</div>

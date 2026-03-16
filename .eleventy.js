@@ -1,6 +1,7 @@
 const markdownIt = require("markdown-it");
 const Image = require("@11ty/eleventy-img");
 const { DateTime } = require("luxon");
+const { EleventyI18nPlugin } = require("@11ty/eleventy");
 
 const TZ = "America/Toronto";
 
@@ -30,6 +31,8 @@ async function imageShortcode(src, alt, sizes = "100vw") {
 }
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(EleventyI18nPlugin, { defaultLanguage: "en" });
+
   eleventyConfig.addPassthroughCopy({"static": "."});
 
   // Add responsive image shortcode
