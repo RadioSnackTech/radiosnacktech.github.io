@@ -50,29 +50,6 @@ module.exports = function(eleventyConfig) {
     return new Date().toISOString();
   });
 
-  // Add a filter to format just the time
-  eleventyConfig.addFilter("formatEventTime", (dateString) => {
-    if (!dateString || !dateString.includes('T')) return null; // all-day event
-    return DateTime.fromISO(dateString, { zone: TZ }).toFormat('h:mm a');
-  });
-
-  // Add a filter to format a date as "Wednesday, April 1"
-  eleventyConfig.addFilter("formatCalDate", (dateString) => {
-    return DateTime.fromISO(dateString, { zone: TZ }).toFormat('cccc, LLLL d');
-  });
-
-  // Find a matching local event URL by comparing start time to minute precision in UTC
-  eleventyConfig.addFilter("findLocalEventUrl", (gcalStart, localEvents) => {
-    if (!gcalStart || !gcalStart.includes('T')) return null;
-    const gcalMinute = DateTime.fromISO(gcalStart).toUTC().startOf('minute').toISO();
-    for (const event of Object.values(localEvents)) {
-      if (DateTime.fromISO(event.date).toUTC().startOf('minute').toISO() === gcalMinute) {
-        return event.url;
-      }
-    }
-    return null;
-  });
-
   // Add a filter to format event dates
   eleventyConfig.addFilter("formatEventDate", (dateString) => {
     return DateTime.fromISO(dateString, { zone: TZ }).toFormat('EEE, MMM d, yyyy, h:mm a');
