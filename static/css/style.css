@@ -166,6 +166,144 @@ p {
   background: rgba(0, 0, 0, 0.1);
 }
 
+/* calendar */
+
+.calendar-page main {
+  max-width: 900px;
+}
+
+.cal-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 3px;
+  margin-bottom: 3rem;
+  table-layout: fixed;
+}
+
+.cal-table th {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.6;
+  padding: 0.25rem 0;
+}
+
+.cal-table td {
+  height: 100px;
+  padding: 0.25rem;
+  border-radius: 4px;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.cal-table ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cal-table dd {
+  margin: 0;
+}
+
+.cal-table td {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.cal-table td.today {
+  background: rgba(19, 242, 116, 0.15);
+  outline: 2px solid var(--green);
+}
+
+.cal-table td > time {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  opacity: 0.7;
+}
+
+.cal-event {
+  display: block;
+  background: var(--green);
+  color: black;
+  font-size: 0.65rem;
+  padding: 0.1rem 0.25rem;
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+
+.cal-event time {
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+/* mobile view of calendar */
+
+.cal-list {
+  display: none;
+  margin-bottom: 3rem;
+}
+
+.cal-list dt {
+  background: black;
+  color: white;
+  font-weight: 800;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 0.6rem 1rem;
+  margin-top: 0.5rem;
+}
+
+.cal-list dd {
+  margin: 0;
+  padding: 0;
+}
+
+.cal-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--green);
+  color: black;
+  padding: 1rem;
+  margin-bottom: 0.4rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.cal-list-item strong {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.cal-list-item p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.cal-list-register {
+  flex-shrink: 0;
+  background: black;
+  color: var(--green);
+  font-weight: 800;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  padding: 0.4rem 0.75rem;
+}
+
+@media screen and (max-width: 768px) {
+  .cal-table {
+    display: none;
+  }
+
+  .cal-list {
+    display: block;
+  }
+}
+
 .event h2 {
   font-size: 1.2rem;
   margin: 0 0 0.5rem 0;

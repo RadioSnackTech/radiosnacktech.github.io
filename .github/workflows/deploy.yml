@@ -35,6 +35,8 @@ jobs:
 
       - name: Build with Eleventy
         run: npx @11ty/eleventy
+        env:
+          GOOGLE_CAL_KEY: ${{ secrets.GOOGLE_CAL_KEY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
