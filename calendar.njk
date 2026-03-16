@@ -4,10 +4,32 @@ title: Calendar - Radio Snack
 permalink: /calendar/
 ---
 
+<style>
+  main { max-width: 1100px; }
+  .cal-desktop { display: block; }
+  .cal-mobile  { display: none; }
+  @media (max-width: 768px) {
+    .cal-desktop { display: none; }
+    .cal-mobile  { display: block; }
+  }
+</style>
+
 <h1>Calendar</h1>
 
 <iframe
+  class="cal-desktop"
   src="https://calendar.google.com/calendar/embed?src=fbe3c8aa05cb3a88d705f29590ffb2b97400bb26be805ecb902e75ee82893489%40group.calendar.google.com&ctz=America%2FToronto"
+  style="border: 0"
+  width="100%"
+  height="600"
+  frameborder="0"
+  scrolling="no"
+  title="Radio Snack Calendar"
+></iframe>
+
+<iframe
+  class="cal-mobile"
+  src="https://calendar.google.com/calendar/embed?src=fbe3c8aa05cb3a88d705f29590ffb2b97400bb26be805ecb902e75ee82893489%40group.calendar.google.com&ctz=America%2FToronto&mode=AGENDA"
   style="border: 0"
   width="100%"
   height="600"
