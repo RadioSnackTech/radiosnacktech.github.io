@@ -1,5 +1,8 @@
 const markdownIt = require("markdown-it");
 const Image = require("@11ty/eleventy-img");
+const { DateTime } = require("luxon");
+
+const TZ = "America/Toronto";
 
 async function imageShortcode(src, alt, sizes = "100vw") {
   let metadata = await Image(src, {
@@ -49,17 +52,7 @@ module.exports = function(eleventyConfig) {
 
   // Add a filter to format event dates
   eleventyConfig.addFilter("formatEventDate", (dateString) => {
-    const date = new Date(dateString);
-    const options = {
-      weekday: 'short',
-      month: 'short',
-      day: 'numeric',
-      year: 'numeric',
-      hour: 'numeric',
-      minute: '2-digit',
-      timeZone: 'America/New_York'
-    };
-    return date.toLocaleDateString('en-US', options);
+    return DateTime.fromISO(dateString, { zone: TZ }).toFormat('EEE, MMM d, yyyy, h:mm a');
   });
 
   return {
