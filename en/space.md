@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: Space - Radio Snack
+permalink: /space/
 ---
 
 ## Space

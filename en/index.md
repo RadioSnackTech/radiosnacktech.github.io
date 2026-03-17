@@ -1,6 +1,7 @@
 ---
 layout: homepage.njk
 title: Radio Snack
+permalink: "/"
 ---
 
 ## Membership

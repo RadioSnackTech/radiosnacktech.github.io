@@ -18,14 +18,21 @@
             <span></span>
         </label>
         <ul>
-            <li><a href="{{ translations[page.lang].nav.home.url }}">{{ translations[page.lang].nav.home.label }}</a></li>
-            <li><a href="{{ translations[page.lang].nav.events.url }}">{{ translations[page.lang].nav.events.label }}</a></li>
-            <li><a href="{{ translations[page.lang].nav.calendar.url }}">{{ translations[page.lang].nav.calendar.label }}</a></li>
-            <li><a href="{{ translations[page.lang].nav.equipment.url }}">{{ translations[page.lang].nav.equipment.label }}</a></li>
-            <li><a href="{{ translations[page.lang].nav.space.url }}">{{ translations[page.lang].nav.space.label }}</a></li>
-            <li><a href="{{ translations[page.lang].nav.membership.url }}">{{ translations[page.lang].nav.membership.label }}</a></li>
-            <li><a href="{{ translations[page.lang].nav.news.url }}">{{ translations[page.lang].nav.news.label }}</a></li>
+            <li><a href="{{ '/' | locale_url }}">{{ translations[page.lang].nav.home }}</a></li>
+            <li><a href="{{ '/events/' | locale_url }}">{{ translations[page.lang].nav.events }}</a></li>
+            <li><a href="{{ '/calendar/' | locale_url }}">{{ translations[page.lang].nav.calendar }}</a></li>
+            <li><a href="{{ '/equipment/' | locale_url }}">{{ translations[page.lang].nav.equipment }}</a></li>
+            <li><a href="{{ '/space/' | locale_url }}">{{ translations[page.lang].nav.space }}</a></li>
+            <li><a href="{{ '/membership/' | locale_url }}">{{ translations[page.lang].nav.membership }}</a></li>
+            <li><a href="{{ '/news/' | locale_url }}">{{ translations[page.lang].nav.news }}</a></li>
         </ul>
+        <!--
+        <ul class="lang-switcher">
+            {% for link in page.url | locale_links %}
+                <li><a href="{{ link.url }}" hreflang="{{ link.lang }}">{{ link.lang | upper }}</a></li>
+            {% endfor %}
+        </ul>
+        -->
     </nav>
 
     <main>

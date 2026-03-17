@@ -1,6 +1,7 @@
 ---
 layout: equipment-content.njk
 title: Equipment - Radio Snack
+permalink: /equipment/
 ---
 
 ## Radio Snack Equipment

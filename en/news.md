@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: Newsletter - Radio Snack
+permalink: /news/
 ---
 
 ## Newsletter
