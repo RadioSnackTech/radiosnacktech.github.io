@@ -58,6 +58,7 @@ collections:
       - { label: "News", name: "news", file: "news.md", fields: [{ label: "Title", name: "title", widget: "string" }, { label: "Body", name: "body", widget: "markdown" }] }
       - { label: "Membership", name: "membership", file: "membership.md", fields: [{ label: "Title", name: "title", widget: "string" }, { label: "Body", name: "body", widget: "markdown" }] }
       - { label: "Space", name: "space", file: "space.md", fields: [{ label: "Title", name: "title", widget: "string" }, { label: "Body", name: "body", widget: "markdown" }] }
+      - { label: "Equipment", name: "equipment", file: "equipment.md", fields: [{ label: "Title", name: "title", widget: "string" }, { label: "Body", name: "body", widget: "markdown" }] }
   - name: "pages_fr"
     label: "Pages (Français)"
     files:
@@ -65,3 +66,4 @@ collections:
       - { label: "Actualités", name: "news", file: "fr/news.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
       - { label: "Adhésion", name: "membership", file: "fr/membership.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
       - { label: "Lieu", name: "space", file: "fr/space.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
+      - { label: "Matériel", name: "equipment", file: "fr/equipment.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
