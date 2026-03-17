@@ -2,10 +2,9 @@
 layout: base.njk
 title: Membership - Radio Snack
 ---
-
 ## Membership
 
-Radiosnack is a membership based community and makerspace.
+Radio Snack is a membership based community and makerspace.
 
 Our membership types:
 
