@@ -31,7 +31,7 @@ async function imageShortcode(src, alt, sizes = "100vw") {
 
 module.exports = async function(eleventyConfig) {
   const { EleventyI18nPlugin } = await import("@11ty/eleventy");
-  eleventyConfig.addPlugin(EleventyI18nPlugin, { defaultLanguage: "en" });
+  eleventyConfig.addPlugin(EleventyI18nPlugin, { defaultLanguage: "en", errorMode: "allow-fallback" });
 
   eleventyConfig.addPassthroughCopy({"static": "."});
 
