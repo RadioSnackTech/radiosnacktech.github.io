@@ -7,6 +7,10 @@ module.exports = {
       questions_heading: "Got questions?",
       questions_button: "Email Us",
     },
+    events: {
+      upcoming: "Upcoming Events",
+      past: "Past Events",
+    },
     nav: {
       home:       { label: "Home",       url: "/" },
       events:     { label: "Events",     url: "/events/" },
@@ -24,6 +28,10 @@ module.exports = {
       updates_button: "TODO",
       questions_heading: "Vous avez des questions ?",
       questions_button: "Écrivez-nous",
+    },
+    events: {
+      upcoming: "Événements à venir",
+      past: "Événements passés",
     },
     nav: {
       home:       { label: "Accueil",    url: "/fr/" },
