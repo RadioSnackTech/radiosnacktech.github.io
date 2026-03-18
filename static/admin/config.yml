@@ -43,6 +43,8 @@ collections:
     fields:
       - { label: "Name", name: "name", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
+      - { label: "Name (français)", name: "name_fr", widget: "string" }
+      - { label: "Description (français)", name: "description_fr", widget: "text" }
       - label: "Images"
         name: "images"
         widget: "list"
