@@ -17,6 +17,8 @@ Our membership types:
 
 **Community Members** have access to the [community space](/space) during weekly open hours (Tuesdays 2-6pm and Wednesdays 6pm-8pm). This includes access to the tools, large worktables, kitchenette, fast wifi and a printer. Community Members with proper training also have access to Bambu 3D printer, risograph printer, soldering station, drill press, sewing machine, and a laser cutter. Community members don’t have key access or access to the private studio room.
 
+<a href="https://www.zeffy.com/en-CA/ticketing/radio-snack-community-membership" class="cta-button" target="_blank">Become a community member!</a>
+
 ## Regular Members
 
 **Regular members** have 24/7 key access to the community space. This includes all access that **community members** have. Regular members don’t have access to the private studio room.
