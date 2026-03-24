@@ -23,6 +23,8 @@ Our membership types:
 
 **Regular members** have 24/7 key access to the community space. This includes all access that **community members** have. Regular members don’t have access to the private studio room.
 
+To become a regular member, email us to set up a tour!
+
 ## Studio Members
 
 **Studio members** have 24/7 key access to their own dedicated space in a shared private room. They also have access to all community space and equipment.
