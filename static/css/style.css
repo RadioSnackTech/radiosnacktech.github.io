@@ -375,3 +375,50 @@ footer svg {
   letter-spacing: 0px;
   margin-bottom: 3rem;
 }
+
+/* progress bar */
+
+
+.progress-bar {
+  max-width: 600px;
+}
+
+.progress-bar__track {
+  position: relative;
+  background: #5BF29C;
+  border-radius: 12px 12px 0 0;
+  height: 52px;
+  overflow: hidden;
+}
+
+.progress-bar__fill {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 58%;
+  width: calc(var(--current)/3000 * 100%);
+  background: #E8458B;
+  border-radius: 10px;
+}
+
+.progress-bar__marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--goal)/3000 * 100%);
+  width: 6px;
+  background: #6C5CE7;
+  border-radius: 3px;
+}
+
+.progress-bar__labels {
+  display: flex;
+  justify-content: space-between;
+  background: #5BF29C;
+  border-radius: 0 0 12px 12px;
+  padding: 4px 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
