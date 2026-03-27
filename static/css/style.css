@@ -5,6 +5,7 @@
   --green: #13f274;
   --gray: rgb(216, 216, 245);
   --orange: #F2522E;
+  --pink: #E8458B;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -378,14 +379,13 @@ footer svg {
 
 /* progress bar */
 
-
 .progress-bar {
   max-width: 600px;
 }
 
 .progress-bar__track {
   position: relative;
-  background: #5BF29C;
+  background: var(--green);
   border-radius: 12px 12px 0 0;
   height: 52px;
   overflow: hidden;
@@ -398,7 +398,7 @@ footer svg {
   bottom: 4px;
   width: 58%;
   width: calc(var(--current)/3000 * 100%);
-  background: #E8458B;
+  background: var(--pink);
   border-radius: 10px;
 }
 
@@ -408,14 +408,14 @@ footer svg {
   bottom: 0;
   left: calc(var(--goal)/3000 * 100%);
   width: 6px;
-  background: #6C5CE7;
+  background: var(--purple);
   border-radius: 3px;
 }
 
 .progress-bar__labels {
   display: flex;
   justify-content: space-between;
-  background: #5BF29C;
+  background: var(--green);
   border-radius: 0 0 12px 12px;
   padding: 4px 12px;
   font-size: 20px;
