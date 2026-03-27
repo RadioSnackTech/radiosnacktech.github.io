@@ -5,7 +5,7 @@
   --green: #13f274;
   --gray: rgb(216, 216, 245);
   --orange: #F2522E;
-  --pink: #E8458B;
+  --pink: #f2107a;
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -360,7 +360,7 @@ footer svg {
 }
 
 .cta-button {
-  background-color: #f2107a;
+  background-color: var(--pink);
   border-radius: 0;
   border: 2px solid #000000;
   color: #ffffff;
@@ -386,7 +386,6 @@ footer svg {
 .progress-bar__track {
   position: relative;
   background: var(--green);
-  border-radius: 12px 12px 0 0;
   height: 52px;
   overflow: hidden;
 }
@@ -399,7 +398,6 @@ footer svg {
   width: 58%;
   width: calc(var(--current)/3000 * 100%);
   background: var(--pink);
-  border-radius: 10px;
 }
 
 .progress-bar__marker {
@@ -409,14 +407,12 @@ footer svg {
   left: calc(var(--goal)/3000 * 100%);
   width: 6px;
   background: var(--purple);
-  border-radius: 3px;
 }
 
 .progress-bar__labels {
   display: flex;
   justify-content: space-between;
   background: var(--green);
-  border-radius: 0 0 12px 12px;
   padding: 4px 12px;
   font-size: 20px;
   font-weight: 700;
