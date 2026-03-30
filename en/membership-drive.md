@@ -18,15 +18,15 @@ To do that, we need more members! We have two types of membership:
 * 💚 Community Member: Access to the community space during weekly open hours ($20/mo)
 * 💜 Regular Member: 24/7 key access to the community space ($100/mo)
 
-Right now open hours are 2 days per week, but if we sign up 20 more members
+Right now open hours are 2 days per week, but if we sign up 10 more members
 we'll increase it to 3 days per week!
 
 ## Progress
 
-We're already most of the way there! Just 30 community members (or 6 regular
-members!) would get us to our goal!
+We're already most of the way there! If we got 20 community members and 5
+regular members, we'd reach our goal!
 
-  <div class="progress-bar" style="--goal: 2700; --current: 2100;">
+  <div class="progress-bar" style="--goal: 2700; --current: 1800;">
     <div class="progress-bar__track">
       <div class="progress-bar__fill"></div>
       <div class="progress-bar__marker"></div>
