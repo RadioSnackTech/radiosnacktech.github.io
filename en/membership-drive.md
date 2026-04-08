@@ -26,7 +26,7 @@ we'll increase it to 3 days per week!
 We're already most of the way there! If we got 15 community members and 3
 regular members, we'd reach our goal!
 
-  <div class="progress-bar" style="--goal: 2700; --current: calc(1800 + 360);">
+  <div class="progress-bar" style="--goal: 2700; --current: calc(1800 + 750);">
     <div class="progress-bar__track">
       <div class="progress-bar__fill"></div>
       <div class="progress-bar__marker"></div>
