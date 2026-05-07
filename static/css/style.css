@@ -126,12 +126,6 @@ p {
   aspect-ratio: 3/2;
   object-fit: cover;
   border-radius: 8px;
-  transition: transform 0.2s;
-}
-
-.photo-grid img:hover,
-.photo-grid picture img:hover {
-  transform: scale(1.05);
 }
 
 /* events */
@@ -148,14 +142,8 @@ p {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   padding: 1rem;
-  transition: transform 0.2s, background-color 0.2s;
   height: 100%;
   box-sizing: border-box;
-}
-
-.event:hover {
-  transform: translateY(-4px);
-  background: rgba(255, 255, 255, 0.15);
 }
 
 .event img {
