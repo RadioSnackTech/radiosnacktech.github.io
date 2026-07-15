@@ -40,7 +40,7 @@ module.exports = {
       calendar:   "Calendrier",
       equipment:  "Matériel",
       space:      "Lieu",
-      membership: "Adhésion",
+      membership: "Abonnement",
       donate:     "Faire un don",
       news:       "Actualités",
     },

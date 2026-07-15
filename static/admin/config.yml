@@ -66,6 +66,6 @@ collections:
     files:
       - { label: "Accueil", name: "index", file: "fr/index.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
       - { label: "Actualités", name: "news", file: "fr/news.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
-      - { label: "Adhésion", name: "membership", file: "fr/membership.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
+      - { label: "Abonnement", name: "membership", file: "fr/membership.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
       - { label: "Lieu", name: "space", file: "fr/space.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
       - { label: "Matériel", name: "equipment", file: "fr/equipment.md", fields: [{ label: "Titre", name: "title", widget: "string" }, { label: "Contenu", name: "body", widget: "markdown" }] }
