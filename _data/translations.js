@@ -26,7 +26,7 @@ module.exports = {
     tagline: "Un espace à Montréal dédié à la technologie créative DIY + aux collations.",
     callout: {
       updates_heading: "Vous souhaitez des mises à jour ?",
-      updates_button: "TODO",
+      updates_button: "Abonnez-vous à notre infolettre",
       questions_heading: "Vous avez des questions ?",
       questions_button: "Écrivez-nous",
     },
