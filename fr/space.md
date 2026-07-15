@@ -4,14 +4,14 @@ title: Lieu - Radio Snack
 permalink: /fr/lieu/
 ---
 
-En janvier 2026, Radio Snack a déménagé au 916, rue Ontario Est, #130 !
+En janvier 2026, Radio Snack a déménagé au 916, rue Ontario Est, #130!
 
 Notre nouvel espace comprend deux pièces : un espace communautaire et un studio
 privé. Lumineux et spacieux, ils offrent de nombreuses possibilités. Situés au
 rez-de-chaussée, l'accès se fait par un escalier d'environ huit marches.
 
 L'espace communautaire est ouvert aux membres de Radio Snack. Les membres peuvent
-partager l'espace, utiliser les outils, et travailler ensemble ! C'est également
+partager l'espace, utiliser les outils, et travailler ensemble! C'est également
 là que nous organisons nos événements publics. L'espace est équipé d'une imprimante
 3D Bambu, d'une imprimante risographe, d'un poste de soudage, d'une machine
 à coudre, d'une découpeuse laser, d'une connexion Wi-Fi, d'une imprimante, d'une

@@ -34,7 +34,7 @@ Les **membres réguliers** ont accès illimité 24h/24 et 7j/7 à l'espace
 commun. Cet accès inclut toutes les outils offertes aux membres de la
 communauté. Les membres réguliers n'ont pas accès au studio privé.
 
-Pour devenir membre régulier, contactez-nous par e-mail afin d'organiser une visite !
+Pour devenir membre régulier, contactez-nous par e-mail afin d'organiser une visite!
 
 ## Membres du studio
 
@@ -45,7 +45,7 @@ l'espace et du matériel communs.
 Tous les membres, quel que soit leur niveau d'adhésion, doivent respecter le
 code de conduite et le contrat d'adhésion.
 
-Vous souhaitez visiter l'espace ou rejoindre notre communauté ?
+Vous souhaitez visiter l'espace ou rejoindre notre communauté?
 
 <a href="mailto:hello@radiosnack.ca?subject=Radio%20Snack%20Membership&amp;body=I%20want%20to%20be%20a%20member!" target="_blank"
-class="cta-button mceButtonLink" rel="noreferrer">Contactez-nous par e-mail pour en savoir plus !</a>
+class="cta-button mceButtonLink" rel="noreferrer">Contactez-nous par e-mail pour en savoir plus!</a>

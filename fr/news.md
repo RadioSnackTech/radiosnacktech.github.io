@@ -7,7 +7,7 @@ permalink: /fr/actualites/
 ## Actualités 
 
 Nous envoyons chaque mois une newsletter avec tous nos événements, actualités,
-résumés et opportunités !
+résumés et opportunités!
 
 <a href="https://mailchi.mp/5900d5de779a/follow-radio-snack" class="button">Rejoignez notre liste de diffusion</a>
 
