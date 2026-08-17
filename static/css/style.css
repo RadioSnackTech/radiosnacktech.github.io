@@ -18,6 +18,7 @@
 footer ::selection,
 .button::selection {
   background-color: var(--purple);
+  color: white;
 }
 
 html {
