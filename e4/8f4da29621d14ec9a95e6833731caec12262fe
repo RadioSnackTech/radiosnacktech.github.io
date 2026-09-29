@@ -1,0 +1,20 @@
+_includes/creative-code-mtl-2026/event.njk
+  h_47bf5c380f00d8 24
+en/creative-code-mtl-2026/freecad.md
+  h_47bf5c380f00d8 1-19
+en/creative-code-mtl-2026/index.njk
+  h_47bf5c380f00d8 29
+en/creative-code-mtl-2026/keyboards.md
+  h_47bf5c380f00d8 1-16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "e48f4da29621d14ec9a95e6833731caec12262fe",
+  "prompts": {},
+  "humans": {
+    "h_47bf5c380f00d8": {
+      "author": "Julia Evans <julia@jvns.ca>"
+    }
+  }
+}
