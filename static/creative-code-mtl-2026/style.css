@@ -101,8 +101,7 @@ a {
 
 body {
   background: url("./background.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .mainpage {
