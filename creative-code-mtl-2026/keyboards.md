@@ -4,7 +4,7 @@ layout: creative-code-mtl-2026/event.njk
 title:  Poetic Keyboards
 link:   REPLACE ME
 day:    "October 24, 2026"
-time:   12h-14h
+time:   12h–14h
 place:  Radio Snack
 type:   free workshop
 person: Ray

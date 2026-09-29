@@ -4,7 +4,7 @@ layout: creative-code-mtl-2026/event.njk
 title:  Building and manipulating video archives with code
 link:   REPLACE ME
 day:    "October 25, 2026"
-time:   13h-15h
+time:   13h–15h
 place:  Radio Snack
 type:   free workshop
 person: Leslie Predy

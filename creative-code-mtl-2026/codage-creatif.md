@@ -4,7 +4,7 @@ layout: creative-code-mtl-2026/event.njk
 title:  Introduction au Codage Créatif avec p5js
 link:   REPLACE ME
 day:    "October 24, 2026"
-time:   15h-17h
+time:   15h–17h
 place:  Ada-X
 type:   atelier gratuit
 person: David Holcer
