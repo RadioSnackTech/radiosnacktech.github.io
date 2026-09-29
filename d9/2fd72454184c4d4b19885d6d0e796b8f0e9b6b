@@ -1,0 +1,30 @@
+creative-code-mtl-2026/bugs.md
+  h_47bf5c380f00d8 7,14
+creative-code-mtl-2026/cajita-abierta.md
+  h_47bf5c380f00d8 7
+creative-code-mtl-2026/codage-creatif.md
+  h_47bf5c380f00d8 7
+creative-code-mtl-2026/freecad.md
+  h_47bf5c380f00d8 7,14
+creative-code-mtl-2026/index.njk
+  h_47bf5c380f00d8 14
+creative-code-mtl-2026/keyboards.md
+  h_47bf5c380f00d8 7
+creative-code-mtl-2026/puzzlescript.md
+  h_47bf5c380f00d8 7
+creative-code-mtl-2026/synthese.md
+  h_47bf5c380f00d8 7
+creative-code-mtl-2026/video-archives.md
+  h_47bf5c380f00d8 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "d92fd72454184c4d4b19885d6d0e796b8f0e9b6b",
+  "prompts": {},
+  "humans": {
+    "h_47bf5c380f00d8": {
+      "author": "Julia Evans <julia@jvns.ca>"
+    }
+  }
+}
