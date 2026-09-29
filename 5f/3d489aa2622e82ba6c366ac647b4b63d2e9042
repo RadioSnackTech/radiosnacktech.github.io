@@ -1,0 +1,39 @@
+_includes/creative-code-mtl-2026/event.njk
+  h_47bf5c380f00d8 1-28
+static/creative-code-mtl-2026/style.css
+  h_47bf5c380f00d8 1-44,46-62,64-117,126-141
+  h_47bf5c380f00d8 45,63,118-125
+static/creative-code-mtl-2026/background.svg
+  h_47bf5c380f00d8 1-3003
+creative-code-mtl-2026/bugs.md
+  h_47bf5c380f00d8 1-19
+creative-code-mtl-2026/cajita-abierta.md
+  h_47bf5c380f00d8 1-30
+creative-code-mtl-2026/codage-creatif.md
+  h_47bf5c380f00d8 1-32
+creative-code-mtl-2026/digital-privacy.md
+  h_47bf5c380f00d8 1-13
+creative-code-mtl-2026/freecad.md
+  h_47bf5c380f00d8 1-19
+creative-code-mtl-2026/index.njk
+  h_47bf5c380f00d8 1-45
+creative-code-mtl-2026/keyboards.md
+  h_47bf5c380f00d8 1-16
+creative-code-mtl-2026/puzzlescript.md
+  h_47bf5c380f00d8 1-13
+creative-code-mtl-2026/synthese.md
+  h_47bf5c380f00d8 1-18
+creative-code-mtl-2026/video-archives.md
+  h_47bf5c380f00d8 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5f3d489aa2622e82ba6c366ac647b4b63d2e9042",
+  "prompts": {},
+  "humans": {
+    "h_47bf5c380f00d8": {
+      "author": "Julia Evans <julia@jvns.ca>"
+    }
+  }
+}
