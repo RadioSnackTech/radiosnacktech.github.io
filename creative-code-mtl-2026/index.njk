@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang or 'en' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Code Montreal 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/creative-code-mtl-2026/style.css">
+</head>
+<body>
+<nav>
+<a href=".."> <span class="first"> Creative Code MTL </span>	<span class="second"> Oct 23, 24, 25 2026</span>
+</a>
+</nav>
+<main class="mainpage">
+
+
+<ul>
+{% for day, posts1 in collections.cc2026 | sort(attribute='day') | groupby("data.day") %}
+{% for place, posts in posts1 | groupby("data.place") %}
+<h1> {{day}} at {{place}} </h1>
+
+<div class="articlegrid">
+<span class="heading"> Event </span>
+<span class="heading"> Facilitator</span>
+<span class="heading"> Time </span>
+{% for post in posts | sort(attribute="time") %}
+<span class="pink"><a href="{{post.url}}"> {{post.data.title}}  </a> </span>
+<span class="pink"> {{post.data.person}} </span>
+<span class="pink"> {{post.data.time}}   </span>
+
+{{ post.content | safe }}
+
+{% endfor %}
+
+</div>
+{% endfor %}
+{% endfor %}
+</ul>
+
+</main>
+</body>
+</html>

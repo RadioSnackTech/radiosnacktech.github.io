@@ -1,0 +1,141 @@
+/* Radio Snack Styles */
+
+:root {
+  --green: #51ff08;
+  --pink: #dc186f;
+  --black: #231e20;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  font-size: 2.5rem;
+  color: var(--green);
+  margin: 2rem;
+
+  .first {
+    background: var(--pink);
+    color: var(--black);
+  }
+
+  span {
+    padding: 0 1rem;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.event {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "description info";
+  max-width: 800px;
+  margin: auto;
+  font-size: 1.5rem;
+
+  a {
+    background: var(--green);
+    color: var(--black);
+    padding: .5rem;
+    margin: .5rem;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 500px) {
+  .event {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "info"
+      "description";
+  }
+
+  nav span {
+    display: block;
+    font-size: 2.25rem;
+  }
+}
+
+.description {
+  min-width: 300px;
+  padding: 1rem;
+  background: var(--black);
+  grid-area: description;
+}
+
+.info {
+  grid-area: info;
+  padding: 1rem;
+  background: var(--black);
+  min-width: 300px;
+
+  h1 {
+    color: var(--green);
+    font-weight: normal;
+    line-height: 1;
+  }
+}
+
+.green {
+  color: var(--green);
+}
+
+.pink {
+  color: var(--pink);
+}
+
+a {
+  color: var(--green);
+}
+
+body {
+  background: url("./background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainpage {
+  background: var(--black);
+}
+
+.articlegrid {
+  font-size: 1.25rem;
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  column-gap: 1rem;
+  max-width: 100%;
+
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+
+    .heading {
+      display: none;
+    }
+  }
+
+  span {
+    font-size: 1.5rem;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  p {
+    color: var(--green);
+    grid-column: 1/-1;
+    max-width: 800px;
+    margin-bottom: 1rem;
+  }
+}
