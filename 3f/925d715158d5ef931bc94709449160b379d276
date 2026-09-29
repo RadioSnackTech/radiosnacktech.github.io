@@ -1,0 +1,14 @@
+en/creative-code-mtl-2026/bugs.md
+  h_47bf5c380f00d8 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "3f925d715158d5ef931bc94709449160b379d276",
+  "prompts": {},
+  "humans": {
+    "h_47bf5c380f00d8": {
+      "author": "Julia Evans <julia@jvns.ca>"
+    }
+  }
+}
