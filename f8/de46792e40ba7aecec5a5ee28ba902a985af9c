@@ -1,0 +1,20 @@
+en/creative-code-mtl-2026/bugs.md
+  s_f20fa455e9c52d::t_b3a5a5b1892e71 6
+  s_f20fa455e9c52d::t_85c82058eaaace 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "f8de46792e40ba7aecec5a5ee28ba902a985af9c",
+  "prompts": {},
+  "sessions": {
+    "s_f20fa455e9c52d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "2e027970-96ca-49de-b743-e377c4972591",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Julia Evans <julia@jvns.ca>"
+    }
+  }
+}
