@@ -1,0 +1,24 @@
+en/creative-code-mtl-2026/cajita-abierta.md
+  h_47bf5c380f00d8 1-30
+en/creative-code-mtl-2026/codage-creatif.md
+  h_47bf5c380f00d8 1-32
+en/creative-code-mtl-2026/digital-privacy.md
+  h_47bf5c380f00d8 1-13
+en/creative-code-mtl-2026/puzzlescript.md
+  h_47bf5c380f00d8 1-13
+en/creative-code-mtl-2026/synthese.md
+  h_47bf5c380f00d8 1-18
+en/creative-code-mtl-2026/video-archives.md
+  h_47bf5c380f00d8 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "1b1431d87eae116d8c08516cebc7127081354415",
+  "prompts": {},
+  "humans": {
+    "h_47bf5c380f00d8": {
+      "author": "Julia Evans <julia@jvns.ca>"
+    }
+  }
+}
