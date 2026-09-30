@@ -1,0 +1,14 @@
+static/creative-code-mtl-2026/style.css
+  h_47bf5c380f00d8 43,55,58,110,118,120,135-138
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "620999ca93b2c856001367228a7c8b5f16a84ec5",
+  "prompts": {},
+  "humans": {
+    "h_47bf5c380f00d8": {
+      "author": "Julia Evans <julia@jvns.ca>"
+    }
+  }
+}
