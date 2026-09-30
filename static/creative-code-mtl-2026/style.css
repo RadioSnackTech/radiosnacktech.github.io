@@ -100,8 +100,9 @@ a {
 }
 
 body {
-  background: url("./background.svg");
-  background-size: 100%;
+  background: var(--black) url("./background.svg");
+  background-size: 800px;
+  background-repeat: repeat-y;
 }
 
 .mainpage {
