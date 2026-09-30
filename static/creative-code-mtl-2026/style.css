@@ -40,7 +40,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "description info";
   max-width: 800px;
-  margin: auto;
+  margin-left: 2rem;
   font-size: 1.5rem;
 
   a {
@@ -52,9 +52,10 @@ nav {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .event {
     max-width: 100%;
+    margin-left: auto;
     grid-template-columns: 1fr;
     grid-template-areas:
       "info"
@@ -106,18 +107,17 @@ body {
 }
 
 .mainpage {
+  margin-left: 2rem;
   background: var(--black);
-}
-
-.articlegrid {
   font-size: 1.25rem;
   display: grid;
   grid-template-columns: max-content max-content max-content;
   column-gap: 1rem;
   max-width: 100%;
 
-  @media (max-width: 500px) {
+  @media (max-width: 900px) {
     grid-template-columns: 1fr;
+    margin-left: 0;
 
     .heading {
       display: none;
@@ -130,6 +130,10 @@ body {
 
   a {
     color: inherit;
+  }
+
+  h1 {
+    grid-column: 1/-1;
   }
 
   p {

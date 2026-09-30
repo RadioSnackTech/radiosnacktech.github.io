@@ -16,12 +16,10 @@
 <main class="mainpage">
 
 
-<ul>
 {% for day, posts1 in collections.cc2026 | sort(attribute='day') | groupby("data.day") %}
 {% for place, posts in posts1 | groupby("data.place") %}
 <h1> {{day}} at {{place}} </h1>
 
-<div class="articlegrid">
 <span class="heading"> Event </span>
 <span class="heading"> Facilitator</span>
 <span class="heading"> Time </span>
@@ -33,11 +31,8 @@
 {{ post.content | safe }}
 
 {% endfor %}
-
-</div>
 {% endfor %}
 {% endfor %}
-</ul>
 
 </main>
 </body>
