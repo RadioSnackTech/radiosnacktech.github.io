@@ -155,8 +155,8 @@ p {
 
 .event img {
   width: 100%;
-  aspect-ratio: 2/1;
-  object-fit: cover;
+  aspect-ratio: 1/1;
+  object-fit: contain;
   border-radius: 4px;
   margin-bottom: 1rem;
   background: rgba(0, 0, 0, 0.1);
