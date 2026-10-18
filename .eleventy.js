@@ -1,5 +1,5 @@
 const markdownIt = require("markdown-it");
-const Image = require("@11ty/eleventy-img");
+const Image = require("@11ty/eleventy-img").default;
 const { DateTime } = require("luxon");
 
 const TZ = "America/Toronto";
