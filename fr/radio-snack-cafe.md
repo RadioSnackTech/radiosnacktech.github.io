@@ -5,9 +5,9 @@ permalink: /fr/cafe-radio-snack/
 ---
 ## Café Radio Snack
 
-Venez déguster un café et une collation au Café Radio Snack!
+Venez déguster un café et une collation au Café Radio Snack, une fois par mois!
 
-<img src="/images/uploads/rs-cafe-sept.png" alt="Café Radio Snack" style="max-width: 100%">
+<img src="/images/uploads/rs-cafe.png" alt="Café Radio Snack" style="max-width: 100%">
 
 Voici ce que vous pouvez faire en profitant de l'espace :
 

@@ -5,9 +5,9 @@ permalink: /radio-snack-cafe/
 ---
 ## Radio Snack Cafe
 
-Come enjoy a coffee and snack at Radio Snack Cafe!
+Come enjoy a coffee and snack at Radio Snack Cafe, held once a month!
 
-<img src="/images/uploads/rs-cafe-sept.png" alt="Radio Snack Cafe" style="max-width: 100%">
+<img src="/images/uploads/rs-cafe.png" alt="Radio Snack Cafe" style="max-width: 100%">
 
 Things you can do hanging out in the space:
 
