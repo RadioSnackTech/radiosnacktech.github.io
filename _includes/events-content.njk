@@ -4,6 +4,7 @@ title: Events - Radio Snack
 permalink: /events/
 ---
 
+{% set isFr = page.lang == "fr" %}
 {% set today = "" | currentDate %}
 {% set upcomingEvents = [] %}
 {% set pastEvents = [] %}
@@ -27,10 +28,10 @@ permalink: /events/
 <div class="events-list">
   {% if upcomingEvents.length > 0 %}
     {%- for event in upcomingEvents %}
-    <a href="{{ event.url }}" target="_blank" rel="noopener">
+    <a href="{{ (event.url_fr if isFr and event.url_fr else event.url) }}" {% if event.url[0] != "/" %}target="_blank" rel="noopener"{% endif %}>
     <article class="event">
-      <img src="{{ event.image }}" alt="{{ event.title }}">
-      <h2>{{ event.title }}</h2>
+      <img src="{{ (event.image_fr if isFr and event.image_fr else event.image) }}" alt="{{ (event.title_fr if isFr and event.title_fr else event.title) }}">
+      <h2>{{ (event.title_fr if isFr and event.title_fr else event.title) }}</h2>
       <time datetime="{{ event.date }}">{{ event.date | formatEventDate }}</time>
     </article>
     </a>
@@ -44,10 +45,10 @@ permalink: /events/
 
 <div class="events-list">
   {%- for event in pastEvents %}
-  <a href="{{ event.url }}" target="_blank" rel="noopener">
+  <a href="{{ (event.url_fr if isFr and event.url_fr else event.url) }}" {% if event.url[0] != "/" %}target="_blank" rel="noopener"{% endif %}>
   <article class="event">
-    <img src="{{ event.image }}" alt="{{ event.title }}">
-    <h2>{{ event.title }}</h2>
+    <img src="{{ (event.image_fr if isFr and event.image_fr else event.image) }}" alt="{{ (event.title_fr if isFr and event.title_fr else event.title) }}">
+    <h2>{{ (event.title_fr if isFr and event.title_fr else event.title) }}</h2>
     <time datetime="{{ event.date }}">{{ event.date | formatEventDate }}</time>
   </article>
   </a>
