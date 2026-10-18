@@ -10,6 +10,9 @@ module.exports = {
     events: {
       upcoming: "Upcoming Events",
       past: "Past Events",
+      drop_in: "Drop-in Events",
+      drop_in_list: [
+      ],
     },
     nav: {
       home:       "Home",
@@ -33,6 +36,9 @@ module.exports = {
     events: {
       upcoming: "Événements à venir",
       past: "Événements passés",
+      drop_in: "Événements libres",
+      drop_in_list: [
+      ],
     },
     nav: {
       home:       "Accueil",

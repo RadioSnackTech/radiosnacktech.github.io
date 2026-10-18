@@ -41,6 +41,20 @@ permalink: /events/
   {% endif %}
 </div>
 
+<h2>{{ translations[page.lang].events.drop_in }}</h2>
+
+<div class="events-list drop-in-events">
+  {%- for item in translations[page.lang].events.drop_in_list %}
+  <a href="{{ item.url }}">
+  <article class="event">
+    <img src="{{ item.image }}" alt="{{ item.title }}">
+    <h2>{{ item.title }}</h2>
+    <time>{{ item.schedule }}</time>
+  </article>
+  </a>
+  {%- endfor %}
+</div>
+
 <h2>{{ translations[page.lang].events.past}}</h2>
 
 <div class="events-list">
