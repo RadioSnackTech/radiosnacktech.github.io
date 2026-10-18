@@ -12,6 +12,8 @@ module.exports = {
       past: "Past Events",
       drop_in: "Drop-in Events",
       drop_in_list: [
+        { title: "Coworking Club", schedule: "Tuesdays, 1pm to 5pm", url: "/coworking/", image: "/images/uploads/cowork.jpg" },
+        { title: "Radio Snack Cafe", schedule: "Once a month: coffee, snacks & hanging out", url: "/radio-snack-cafe/", image: "/images/uploads/rs-cafe.png" },
       ],
     },
     nav: {
@@ -38,6 +40,8 @@ module.exports = {
       past: "Événements passés",
       drop_in: "Événements libres",
       drop_in_list: [
+        { title: "Club de cotravail", schedule: "Les mardis, 13 h à 17 h", url: "/fr/cotravail/", image: "/images/uploads/cowork.jpg" },
+        { title: "Café Radio Snack", schedule: "Une fois par mois : café, collations et rencontres", url: "/fr/cafe-radio-snack/", image: "/images/uploads/rs-cafe.png" },
       ],
     },
     nav: {
