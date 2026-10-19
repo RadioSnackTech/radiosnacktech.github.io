@@ -17,8 +17,10 @@ collections:
     summary: "{{date | date('YYYY-MM-DD')}} - {{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title in French (optional)", name: "title_fr", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Image", name: "image", widget: "image" }
+      - { label: "Image in French (optional)", name: "image_fr", widget: "image" }
       - { label: "No registration required", name: "no_registration", widget: "boolean", default: false }
       - { label: "Link coming soon", name: "coming_soon", widget: "boolean", default: false }
       - { label: "Event URL", name: "url", widget: "string" }
