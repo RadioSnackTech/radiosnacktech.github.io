@@ -1,0 +1,27 @@
+static/admin/config.yml
+  h_47bf5c380f00d8 22-23
+_includes/events-content.njk
+  h_47bf5c380f00d8 36-40,43
+  h_47bf5c380f00d8 35,41
+_data/events/costume-making.json
+  h_47bf5c380f00d8 7-8
+_data/events/open-print.json
+  h_47bf5c380f00d8 7-8
+_data/events/try-3d-print.json
+  h_47bf5c380f00d8 7-8
+_data/translations.js
+  h_47bf5c380f00d8 12-13,43-44
+static/css/style.css
+  h_47bf5c380f00d8 156-166
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6d80c46c85b08b8115a1232451629ee7c27ddf0b",
+  "prompts": {},
+  "humans": {
+    "h_47bf5c380f00d8": {
+      "author": "Julia Evans <julia@jvns.ca>"
+    }
+  }
+}
