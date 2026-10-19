@@ -32,7 +32,15 @@ permalink: /events/
     <article class="event">
       <img src="{{ (event.image_fr if isFr and event.image_fr else event.image) }}" alt="{{ (event.title_fr if isFr and event.title_fr else event.title) }}">
       <h2>{{ (event.title_fr if isFr and event.title_fr else event.title) }}</h2>
+
+      {% if event.no_registration %}
+      <div class="note"> {{ translations[page.lang].events.no_registration}} </div>
+      {% elif event.coming_soon %}
+      <div class="note"> {{ translations[page.lang].events.coming_soon }}</div>
+      {% endif %}
+
       <time datetime="{{ event.date }}">{{ event.date | formatEventDate }}</time>
+
     </article>
     </a>
     {%- endfor %}

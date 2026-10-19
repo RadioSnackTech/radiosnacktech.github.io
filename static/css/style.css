@@ -153,6 +153,17 @@ p {
   box-sizing: border-box;
 }
 
+.event .note {
+  display: block;
+  width: 60%;
+  background: var(--green);
+  color: black;
+  padding: .3rem;
+  border-radius: .5rem;
+  margin: .5rem 0;
+  font-size: .8rem;
+}
+
 .event img {
   width: 100%;
   aspect-ratio: 1/1;

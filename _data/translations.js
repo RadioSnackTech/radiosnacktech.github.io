@@ -9,6 +9,8 @@ module.exports = {
     },
     events: {
       upcoming: "Upcoming Events",
+      no_registration: "No registration required",
+      coming_soon: "Registration coming soon",
       past: "Past Events",
       drop_in: "Drop-in Events",
       drop_in_list: [
@@ -38,6 +40,8 @@ module.exports = {
     events: {
       upcoming: "Événements à venir",
       past: "Événements passés",
+      no_registration: "Aucune inscription requise",
+      coming_soon: "Inscriptions bientôt ouvertes",
       drop_in: "Événements libres",
       drop_in_list: [
         { title: "Club de cotravail", schedule: "Les mardis, 13 h à 17 h", url: "/fr/cotravail/", image: "/images/uploads/cowork.jpg" },
