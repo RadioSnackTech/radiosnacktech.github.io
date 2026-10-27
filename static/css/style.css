@@ -162,6 +162,9 @@ p {
   border-radius: .5rem;
   margin: .5rem 0;
   font-size: .8rem;
+  &.coming-soon {
+    background: var(--pink);
+  }
 }
 
 .event img {
