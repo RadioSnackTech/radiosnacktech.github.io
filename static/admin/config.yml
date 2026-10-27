@@ -15,11 +15,11 @@ collections:
     extension: "json"
     format: "json"
     summary: "{{date | date('YYYY-MM-DD')}} - {{title}}"
-    sortable_fields:
-      - title
-      - field: date
-        label: Event Date
-        default_sort: desc
+    #sortable_fields:
+    #  - title
+    #  - field: date
+    #    label: Event Date
+    #    default_sort: desc
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Title in French (optional)", name: "title_fr", widget: "string", required: false }
