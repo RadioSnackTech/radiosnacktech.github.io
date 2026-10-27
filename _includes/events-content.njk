@@ -30,7 +30,7 @@ permalink: /events/
     {%- for event in upcomingEvents %}
     <a href="{{ (event.url_fr if isFr and event.url_fr else event.url) }}" {% if event.url[0] != "/" %}target="_blank" rel="noopener"{% endif %}>
     <article class="event">
-      <img src="{{ (event.image_fr if isFr and event.image_fr else event.image) }}" alt="{{ (event.title_fr if isFr and event.title_fr else event.title) }}">
+      <img src="{{ (isFr and event.image_fr) or event.image or "/images/radiosnack.png" }}" alt="{{ (event.title_fr if isFr and event.title_fr else event.title) }}">
       <h2>{{ (event.title_fr if isFr and event.title_fr else event.title) }}</h2>
 
       {% if event.no_registration %}
