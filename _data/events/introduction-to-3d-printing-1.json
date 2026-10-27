@@ -1,7 +1,8 @@
 {
   "no_registration": false,
-  "coming_soon": true,
+  "coming_soon": false,
   "title": "Introduction to 3D printing",
   "date": "2026-11-24T18:30:00.000-05:00",
-  "image": "/images/uploads/workshops_template-02.png"
+  "image": "/images/uploads/workshops_template-02.png",
+  "url": "https://www.zeffy.com/en-CA/ticketing/introduction-to-3d-printing-november"
 }
