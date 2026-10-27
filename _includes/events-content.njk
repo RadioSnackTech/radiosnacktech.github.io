@@ -41,7 +41,7 @@ permalink: /events/
       <div class="note coming-soon"> {{ translations[page.lang].events.coming_soon }}</div>
       {% endif %}
 
-      <time datetime="{{ event.date }}">{{ event.date | formatEventDate }}</time>
+      <time datetime="{{ event.date }}">{{ event | formatEventDate }} {% if event.end_time %}  {% endif %} </time>
 
     </article>
     {% if event.url or event.url_fr %}
@@ -75,7 +75,7 @@ permalink: /events/
   <article class="event">
     <img src="{{ (event.image_fr if isFr and event.image_fr else event.image) }}" alt="{{ (event.title_fr if isFr and event.title_fr else event.title) }}">
     <h2>{{ (event.title_fr if isFr and event.title_fr else event.title) }}</h2>
-    <time datetime="{{ event.date }}">{{ event.date | formatEventDate }}</time>
+    <time datetime="{{ event.date }}">{{ event | formatEventDate }}</time>
   </article>
   </a>
   {%- endfor %}

@@ -22,10 +22,11 @@ collections:
     #    default_sort: desc
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Title in French (optional)", name: "title_fr", widget: "string", required: false }
+      - { label: "Title in French", name: "title_fr", widget: "string", required: false }
       - { label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
+      - { label: "End Time", name: "end_time", widget: "datetime", required: false }
       - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Image in French (optional)", name: "image_fr", widget: "image", required: false }
+      - { label: "Image in French", name: "image_fr", widget: "image", required: false }
       - { label: "No registration required", name: "no_registration", widget: "boolean", default: false }
       - { label: "Link coming soon", name: "coming_soon", widget: "boolean", default: false }
       - { label: "Event URL", name: "url", widget: "string", required: false }

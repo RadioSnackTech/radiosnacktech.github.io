@@ -54,8 +54,12 @@ module.exports = async function(eleventyConfig) {
   });
 
   // Add a filter to format event dates
-  eleventyConfig.addFilter("formatEventDate", (dateString) => {
-    return DateTime.fromISO(dateString, { zone: TZ }).toFormat('EEE, MMM d, yyyy, h:mm a');
+  eleventyConfig.addFilter("formatEventDate", (event) => {
+    let date = DateTime.fromISO(event.date, { zone: TZ }).toFormat('EEE, MMM d, yyyy, h:mm a');
+    if (event.end_time) {
+      date += DateTime.fromISO(event.end_time, { zone: TZ }).toFormat(' - h:mm a');
+    }
+    return date;
   });
 
   return {
