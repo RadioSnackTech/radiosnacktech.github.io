@@ -28,7 +28,9 @@ permalink: /events/
 <div class="events-list">
   {% if upcomingEvents.length > 0 %}
     {%- for event in upcomingEvents %}
-    <a href="{{ (event.url_fr if isFr and event.url_fr else event.url) }}" {% if event.url[0] != "/" %}target="_blank" rel="noopener"{% endif %}>
+    {% if event.url or event.url_fr %}
+      <a href="{{ (event.url_fr if isFr and event.url_fr else event.url) }}" {% if event.url[0] != "/" %}target="_blank" rel="noopener"{% endif %}>
+    {% endif %}
     <article class="event">
       <img src="{{ (isFr and event.image_fr) or event.image or "/images/radiosnack.png" }}" alt="{{ (event.title_fr if isFr and event.title_fr else event.title) }}">
       <h2>{{ (event.title_fr if isFr and event.title_fr else event.title) }}</h2>
@@ -42,7 +44,9 @@ permalink: /events/
       <time datetime="{{ event.date }}">{{ event.date | formatEventDate }}</time>
 
     </article>
-    </a>
+    {% if event.url or event.url_fr %}
+      </a>
+    {% endif %}
     {%- endfor %}
   {% else %}
     <p>No events right now, <a style="color: var(--green);" href="https://space.us17.list-manage.com/subscribe?u=ba0a970b8d0ce98df253de379&id=44959ac275">sign up for our mailing list</a> to hear about new events!</p>
