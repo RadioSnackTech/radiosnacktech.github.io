@@ -23,7 +23,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Title in French (optional)", name: "title_fr", widget: "string", required: false }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Date", name: "date", widget: "datetime", default: "{{now}}"}
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Image in French (optional)", name: "image_fr", widget: "image", required: false }
       - { label: "No registration required", name: "no_registration", widget: "boolean", default: false }
