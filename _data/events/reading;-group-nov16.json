@@ -1,0 +1,11 @@
+{
+  "no_registration": true,
+  "coming_soon": false,
+  "title": "Reading Group",
+  "title_fr": "Club de Lecture",
+  "date": "2026-11-19T18:00:00.000-05:00",
+  "image_fr": "/images/uploads/reading-group-meet-nov16.png",
+  "image": "/images/uploads/reading-group-meet-nov16.png",
+  "url": "/events/reading-group/",
+  "url_fr": "/fr/evenements/club-de-lecture/"
+}

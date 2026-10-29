@@ -1,16 +1,36 @@
 ---
 layout: base.njk
 title: Groupe de lecture sur les études technologiques - Radio Snack
-permalink: /fr/evenements/groupe-de-lecture/
+permalink: /fr/evenements/club-de-lecture/
 ---
 
-## Groupe de lecture sur les études technologiques
+## Club de lecture sur les études technologiques
 
-<img src="/images/uploads/reading-group-2026-10-19-B.png" alt="Groupe de lecture sur les études technologiques" style="max-width: 100%">
+<img src="/images/uploads/reading-group-fr-nov16.png" alt="Club de lecture sur les études technologiques" style="max-width: 100%">
 
-**Lundi 19 octobre, 18 h**
+deuxième rdv 19 Novembre 2026 18h
 
-Le 19 octobre à 18h : premier rdv du groupe de lecture sur les technologies de Radio Snack, avec [@youcanlivethereforever](https://www.instagram.com/youcanlivethereforever/) !
+à lire:
+
+   - /Ministry for the Future/
+      par K.S. Robinson
+      > pages 31-80
+
+   - /Insufferable Tools/
+      par Sarah Sharma
+      > premier chapitre (pas l'intro)
+
+demandez pour les pdfs
+
+Ecrivez les termes que vous ne comprenez
+pas pour le chapitre de Sharma
+Pour la section du Robinson essayez
+d'écrire un ou deux exemples de scènes
+que vous pouvez relier à votre quotidien
+
+### Evenments passe
+
+<img src="/images/uploads/reading-group-2026-10-19-B.png" alt="Club de lecture sur les études technologiques" style="max-width: 100%">
 
 Nous discuterons les huit premiers chapitres de *Ministry for the Future* par Kim Stanley Robinson (ils sont tellement courts !) et l'introduction + ch. 1 de *Insufferable Tools* par Sarah Sharma.
 
