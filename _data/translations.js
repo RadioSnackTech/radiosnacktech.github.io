@@ -16,6 +16,8 @@ module.exports = {
       drop_in_list: [
         { title: "Coworking Club", schedule: "Tuesdays, 1pm to 5pm", url: "/coworking/", image: "/images/uploads/cowork.jpg" },
         { title: "Radio Snack Cafe", schedule: "Once a month: coffee, snacks & hanging out", url: "/radio-snack-cafe/", image: "/images/uploads/rs-cafe.png" },
+        { title: "Queer Writing Group", schedule: "Every Second Saturday", url: "/queer-writing-group/",
+          image: "/images/uploads/queer_writers_group.jpg" },
       ],
     },
     nav: {
@@ -46,6 +48,8 @@ module.exports = {
       drop_in_list: [
         { title: "Club de cotravail", schedule: "Les mardis, 13 h à 17 h", url: "/fr/cotravail/", image: "/images/uploads/cowork.jpg" },
         { title: "Café Radio Snack", schedule: "Une fois par mois : café, collations et rencontres", url: "/fr/cafe-radio-snack/", image: "/images/uploads/rs-cafe.png" },
+        { title: "Groupe d'écriture queer", schedule: "Un samedi sur deux de 13 h à 16 h", url: "/fr/groupe-ecriture-queer/",
+          image: "/images/uploads/queer_writers_group.jpg" },
       ],
     },
     nav: {

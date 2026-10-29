@@ -2,7 +2,10 @@
   "no_registration": true,
   "coming_soon": false,
   "title": "Queer Writing Group",
+  "title_fr": "Groupe d'écriture queer",
   "date": "2026-11-14T13:00:00.000-05:00",
-  "image_fr": "/images/uploads/cowork.jpg",
-  "image": "/images/uploads/cowork.jpg"
+  "image_fr": "/images/uploads/queer_writers_group.jpg",
+  "image": "/images/uploads/queer_writers_group.jpg",
+  "url": "/queer-writing-group/",
+  "url_fr": "/fr/groupe-ecriture-queer/"
 }
