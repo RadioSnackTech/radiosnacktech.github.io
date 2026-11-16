@@ -1,11 +1,11 @@
 {
-  "no_registration": true,
-  "coming_soon": false,
-  "title": "Reading Group",
-  "title_fr": "Club de Lecture",
-  "date": "2026-11-19T18:00:00.000-05:00",
-  "image_fr": "/images/uploads/reading-group-meet-nov16.png",
-  "image": "/images/uploads/reading-group-meet-nov16.png",
+  "date": "2026-11-16T18:00:00.000-05:00",
   "url": "/events/reading-group/",
+  "image_fr": "/images/uploads/reading-group-meet-nov16.png",
+  "title_fr": "REPORTÉ !! Club de Lecture",
+  "no_registration": true,
+  "title": "POSTPONED!! (TBD) Reading Group",
+  "coming_soon": false,
+  "image": "/images/uploads/reading-group-meet-nov16.png",
   "url_fr": "/fr/evenements/club-de-lecture/"
 }
