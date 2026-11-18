@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
   schedule:
     # Rebuild daily so that "Upcoming events" on events page stays accurate
-    - cron: '0 6 * * *'
+    - cron: '0 1 * * *'
+      timezone: "America/Toronto"
 
 permissions:
   contents: read
